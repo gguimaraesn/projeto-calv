@@ -6,7 +6,7 @@ function Footer() {
 
   return (
     <>
-    <footer style={{backgroundColor:'yellow'}}>    <div>
+    <footer style={{backgroundColor:'yellow', width:"100%"}}>    <div>
         <h1>logo cal.v</h1>
         <p>Seja um instrutor</p>
         <p>Quem somos</p>
