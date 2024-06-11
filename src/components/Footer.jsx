@@ -1,24 +1,13 @@
-import { useState } from 'react'
-import '../App.css'
+// src/components/Footer.jsx
+import React from 'react';
+import './Footer.css';
 
-function Footer() {
-  const [count, setCount] = useState(0)
-
+const Footer = () => {
   return (
-    <>
-    <footer style={{backgroundColor:'yellow', width:"100%"}}>    <div>
-        <h1>logo cal.v</h1>
-        <p>Seja um instrutor</p>
-        <p>Quem somos</p>
-        <p>Termos de uso</p>
-
-
-
-      </div>
-      </footer>
-  
-    </>
-  )
+    <footer className="footer">
+      <p>© 2024 Calv. Todos os direitos reservados.</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;

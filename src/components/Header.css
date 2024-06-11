@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.search{
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-button {
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

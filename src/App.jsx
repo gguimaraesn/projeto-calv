@@ -1,51 +1,42 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import './App.css'
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CareerSection from './components/CareerSection';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div style={{
-      flex: 1,
-      backgroundColor:"grey",
-      alignItems:"center",
-    }}>
-      {/* <Header />
-      <div>
-        <section id="hero">
-          <div>
-            <div>
-              <h1> Melhore suas Habilidades </h1>
-            </div>
-            <div>
-              <p>Na <span>Calv</span> trasnformamos o aprendizado em <b> conexões significativas, </b> unindo mentes brilhantes da área de T.I para compatilhar conhecimento e impulsionar o futuro da tecnologia juntos. </p>
-            </div>
-            <div>
-              <h2> Explore nossas <span> carreiras </span></h2>
-              <div>
-                <p><b>Back</b>-end</p>
-                <p> <b>Front</b>-End</p>
-                <p><b>Dados</b></p>
+    <div className="app">
+      <Header />
+      <main className="main-content">
+        <section id="hero" className="hero-section">
+          <div className="hero-overlay">
+            <div className="hero-content">
+              <h1>Melhore suas Habilidades</h1>
+              <p>
+                Na <span>Calv</span> transformamos o aprendizado em <b>conexões significativas,</b> unindo mentes brilhantes da área de T.I para compartilhar conhecimento e impulsionar o futuro da tecnologia juntos.
+              </p>
+              <h2>Explore nossas <span>carreiras</span></h2>
+              <div className="careers">
+                <button>Back-end</button>
+                <button>Front-End</button>
+                <button>Dados</button>
               </div>
-              <div>
-                <h3>Outros <span>benefícios</span></h3>
-                <p>.Integração entre alunos x alunos</p>
-                <p>.Integração entre alunos x instrutores</p>
-                <p>.Contato com as maiores empresas da área</p>
-              </div>
-              <button>Inscreva-se</button>
+              <h3>Outros <span>benefícios</span></h3>
+              <ul>
+                <li>Integração entre alunos x alunos</li>
+                <li>Integração entre alunos x instrutores</li>
+                <li>Contato com as maiores empresas da área</li>
+              </ul>
+              <button className="signup-button">Inscreva-se</button>
               <p>Assine o Premium</p>
             </div>
           </div>
         </section>
-      </div>
-
-      <Footer /> */}
-
+      </main>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

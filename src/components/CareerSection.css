@@ -1,0 +1,31 @@
+/* src/components/CareerSection.css */
+.career-section {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .career-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .career-section span {
+    color: #007bff;
+  }
+  
+  .career-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .career-card {
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+  }
