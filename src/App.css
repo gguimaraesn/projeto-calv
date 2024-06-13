@@ -1,104 +1,122 @@
-/* src/App.css */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #fff;
-  }
-  
-  .app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  
-  .header, .footer {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  .main-content {
-    flex: 1;
-  }
-  
-  .hero-section {
-    background: url('/public/Fundo.png') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-    padding: 4rem 2rem;
-    text-align: center;
-    color: #fff;
-    height: 100vh;
-    max-height: 100vh; 
-  }
-  
-  .hero-overlay {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-content p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-  }
-  
-  .hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .hero-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  .careers {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .careers button {
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 0.5rem;
-  }
-  
-  .benefits-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .benefits-section li {
-    margin-bottom: 0.5rem;
-  }
-  
-  .signup-button {
-    padding: 0.5rem 1rem;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    cursor: pointer;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 1rem;
-  }
+.hero {
+  height: 60vh;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  background-image: url('/hero.png');
+  background-size: 100% auto;
+}
+
+.hero-content {
+  /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); */
+  color: #ffffff;
+  padding: 32px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  width: 75%;
+  box-sizing: border-box;
+  padding-right: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 64px;
+}
+
+.hero-content p {
+  font-size: 24px;
+}
+
+.careers {
+  padding: 32px;
+  background-image: linear-gradient(to bottom, #333333, #333333, #007bff);
+}
+
+.careers h2 {
+  margin: 0;
+  margin-bottom: 32px;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.careers .content {
+  display: flex;
+  justify-content: center;
+}
+
+.careers .content div {
+  background-image: linear-gradient(#007bff, #0570e3, #0351a3);
+  color: #ffffff;
+  padding: 42px;
+  border-radius: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+}
+
+.careers .content div h3 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.careers .content div p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.cta {
+  background-color: #007bff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 32px;
+  padding-top: 64px;
+}
+
+.cta ul {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta ul li {
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 5px 3px;
+}
+
+.cta ul li::marker {
+  color: #333333;
+}
+
+.cta button {
+  border: 0;
+  background: white;
+  color: #333333;
+  font-size: 32px;
+  padding: 8px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 32px;
+  margin-top: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta p {
+  text-align: center;
+  margin-bottom: 64px;
+
+}

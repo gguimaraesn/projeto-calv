@@ -1,5 +1,5 @@
 /* src/components/Header.css */
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,15 +8,33 @@
     color: white;
 }
 
-.logo{
-    font-size: 1.5rem;
-    font-weight: bold;
+.logo img {
+    height: 30px;
 }
 
+.search {
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 999px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
 
-.search{
-    padding: 0.5rem;
-    font-size: 1rem;
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 4px;
+    padding-right: 16px;
+    border-radius: 999px;
+}
+
+header nav {
+    display: flex;
+    margin-left: 16px;
+    gap: 16px;
 }
 
 .nav-links a {
@@ -25,9 +43,10 @@
 }
 
 .login-button {
-    padding: 0.5rem 1rem;
-    background-color: #555;
+    padding: 8px 16px;
+    background-color: #ffffff;
     border: none;
-    color: white;
+    color: #333333;
+    border-radius: 32px;
     cursor: pointer;
 }

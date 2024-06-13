@@ -1,7 +1,49 @@
-/* src/components/Footer.css */
-.footer {
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    text-align: center;
-  }
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 32px;
+}
+
+footer nav {
+  width: 25%;
+}
+
+footer nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer nav ul li {
+  list-style-type: none;
+}
+
+footer nav ul li a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+footer .social-links {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-links a {
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  gap: 4px;
+  font-size: 20px;
+}
+
+footer .logo-footer img {
+  margin-top: -64px;
+  margin-bottom: -32px
+}
