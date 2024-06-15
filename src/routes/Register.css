@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.register-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #333333, #333333, #007bff);
+  color: #ffffff;
+
+}
+
+.form-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1366px;
+  margin-bottom: 20px;
+}
+
+.login-container,
+.register-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 16px;
+
+}
+
+.login-form,
+.login-form-instructors,
+.register-form {
+  padding: 10px;
+  border-radius: none;
+
+
+}
+
+.login-form h2,
+.login-form-instructors h2,
+.register-form h2 {
+  margin-bottom: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.login-form button,
+.login-form-instructors button,
+.register-form button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.login-form button:hover,
+.login-form-instructors button:hover,
+.register-form button:hover {
+  background-color: #0056b3;
+}
+
+.register-form p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #333333;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.skills-container {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #1c1e21;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-container h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.courses-button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.courses-button:hover {
+  background-color: #0056b3;
+}
