@@ -44,9 +44,39 @@ body {
 .login-form h2,
 .login-form-instructors h2,
 .register-form h2 {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   text-align: left;
   color: #ffffff;
+}
+
+.login-form ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 16px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.login-form-instructors ul {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 16px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.register-form ul {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 16px;
+  font-size: 42px;
+  font-weight: bold;
 }
 
 form {
@@ -94,8 +124,8 @@ form {
 
 .register-form p {
   margin-top: 16px;
-  font-size: 14px;
-  color: #666;
+  font-size: 20px;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -113,31 +143,50 @@ a:hover {
 }
 
 .skills-container {
-  text-align: center;
-  margin-top: 20px;
-  background-color: #1c1e21;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient (to bottom, #333333, #333333, #007bff);
+  padding: 40px 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
 }
 
 .skills-container h2 {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 64px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
+.skills-container hr {
+  width: 60px;
+  border: 2px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.skills-container h2::after {
+  content: '';
+  display: block;
+  width: 75%;
+  height: 2px;
+  background: #ffffff;
+  margin: 20px auto 0;
+}
+
+
 .courses-button {
   padding: 12px 24px;
-  background-color: #007bff;
+  background-color: #333333;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 30px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
 }
 
 .courses-button:hover {
-  background-color: #0056b3;
+  background-color: #555555;
 }

@@ -7,7 +7,9 @@ function Register() {
       <div className="form-section">
         <div className="login-container">
           <div className="login-form">
-            <h2>Login</h2>
+            <ul>
+              <li>Login</li>
+            </ul>
             <form>
               <div className="form-group">
                 <label htmlFor="email">Email</label>
@@ -22,7 +24,9 @@ function Register() {
           </div>
 
           <div className="login-form-instructors">
-            <h2>Login (Instrutores)</h2>
+            <ul>
+              <li>Login (Instrutores)</li>
+            </ul>
             <form>
               <div className="form-group">
                 <label htmlFor="instructor-email">Email</label>
@@ -39,7 +43,9 @@ function Register() {
 
         <div className="register-container">
           <div className="register-form">
-            <h2>Cadastre-se</h2>
+            <ul>
+              <li>Cadastre-se</li>
+            </ul>
             <form>
               <div className="form-group">
                 <label htmlFor="register-email">Email</label>
