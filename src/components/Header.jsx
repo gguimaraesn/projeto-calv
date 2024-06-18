@@ -13,7 +13,7 @@ const Header = () => {
         <input type="text"
           className="search"
           placeholder="Pesquisar..." />
-        <Link to={`/aprendizado`}>Aprendizado</Link>
+        <Link to={`/register`}>Aprendizado</Link>
         <Link to={`/premium`}>Premium</Link>
         <Link to={`/categorias`}>Categorias</Link>
       </nav>

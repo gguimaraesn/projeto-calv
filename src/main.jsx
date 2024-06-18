@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Root from './routes/root.jsx'
 import Home from './routes/Home.jsx'
 import Register from './routes/Register.jsx'
+import Aprendizado from './routes/Aprendizado.jsx'
+
 
 import {
   createBrowserRouter,
@@ -28,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/aprendizado",
-        element: <Home />,
+        element: <Aprendizado />,
       },
       {
         path: "/premium",
